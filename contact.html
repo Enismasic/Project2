@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-<head>
-  <title>Contact Us</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="screen" href="css/meyers_reset.css">
-  <link rel="stylesheet" media="screen" href="css/style.css">
-  <script src="js/script.js" async></script>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a href="index.html"><img class="logo" src="resources/darklogo-t.png" alt="darklogo-t"></a>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="events.html">Events</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
-          <li>
-            <a href="login.html">Login</a>
-          </li>
-        </ul>
+   <head>
+      <title>Contact Us</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" media="screen" href="css/meyers_reset.css">
+      <link rel="stylesheet" media="screen" href="css/style.css">
+      <script src="js/script.js" async></script>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <div class="navbar-container">
+               <a href="index.html"><img class="logo" src="resources/darklogo-t.png" alt="darklogo-t"></a>
+               <ul>
+                  <li>
+                     <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="events.html">Events</a>
+                  </li>
+                  <li>
+                     <a href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                     <a href="login.html">Login</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <div class="content">
+         <form name="contactform" action="#null" onsubmit="return checkempty()" method="get" id="contactform"></form>
       </div>
-    </nav>
-  </header>
-  <div class="content">
-    <form name="contactform" action="#null" onsubmit="return checkempty()" method="get" id="contactform"></form>
-  </div>
-  <div class="container">
-    <a><img class="world" src="resources/contact.png" alt="contact"></a> <label for="fname">First Name</label> <input type="text" id="fname" name="firstname" placeholder="Your name.."> <label for="lname">Last Name</label> <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <label for="Email">Email</label> <input type="text" id="fname" name="phone" placeholder="Email" required=""> <label for="phone">Phone</label> <input type="text" id="fname" name="phone" placeholder="Phone Number"> <label for="Message">Subject</label> 
-    <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea> <input type="submit" value="Enter">
-    <div class="footer-container">
-      <footer>
-        <a><img class="facebook" src="resources/facebook.webp" alt="facebook"></a> <a><img class="googleplus" src="resources/googleplus.webp" alt="googleplus"></a> <a><img class="linkedin" src="resources/linkedin.webp" alt="linkedin"></a>
-      </footer>
-    </div>
-  </div>
-</body>
+      <div class="container">
+         <a><img class="world" src="resources/contact.png" alt="contact"></a>
+         <label for="fname">First Name</label>
+         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         <label for="email">Email</label>
+         <input type="email" id="email" name="email" placeholder="Email" required>
+         <label for="phone">Phone</label>
+         <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+         <label for="subject">Subject</label> 
+         <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+         <input type="submit" value="Enter">
+         <div class="footer-container">
+            <footer>
+               <a><img class="facebook" src="resources/facebook.webp" alt="facebook"></a>
+               <a><img class="googleplus" src="resources/googleplus.webp" alt="googleplus"></a>
+               <a><img class="linkedin" src="resources/linkedin.webp" alt="linkedin"></a>
+            </footer>
+         </div>
+      </div>
+   </body>
 </html>

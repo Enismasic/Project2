@@ -149,27 +149,27 @@ p {
 
 
 @media screen and (max-width: 480px){
-	.navbar-container {
-		padding-top: 0.5em;
-		padding-bottom: 0.5em;
-	}
+  .navbar-container {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
 
-	.navbar-container li {
-		display: block;
-        text-align: center;
-        margin: 0.5em 0;
-	}
+  .navbar-container li {
+    display: block;
+    text-align: center;
+    margin: 0.5em 0;
+  }
 
-	h1 {
-		margin-bottom: 10px;
-		font-size: 1.5em;
-	}
+  h1 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
 
-	body {
-		margin: 1.5em;
-		padding: 1.5em;
-		background-color: #ffffff;
-	}
+  body {
+    margin: 1.5em;
+    padding: 1.5em;
+    background-color: #ffffff;
+  }
 }
 
 .container {
@@ -178,8 +178,7 @@ p {
   padding: 15px ;
 } 
 
-input,
-textarea {
+input, textarea {
   width: 100%;
   padding: 8px;
   border: none;
@@ -189,7 +188,6 @@ textarea {
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
-  
 }
 
 input[type=submit] {
@@ -203,7 +201,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: darkblue;
 }
-
 
 .bottom-container {
   text-align: center;
@@ -224,10 +221,8 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
 	text-align: center;
-	
   }
  
-
   .hide-md-lg {
     display: block;
     text-align: center;

@@ -9,52 +9,44 @@
   <script src="js/script.js" async></script>
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a href="index.html"><img class="logo" src="resources/darklogo-t.png" alt="darklogo-t"></a>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="events.html">Events</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
-          <li>
-            <a href="login.html">Login</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <div class="content">
-    <h1>Login</h1>
-    <form name="form" action="#null" onsubmit="return checkempty()" method="get" id="form"></form>
-  </div>
-  <div class="container">
-    <form action="/action_page.php" method="get">
-      <div class="row">
-        <div class="social">
-          <a href="https://www.facebook.com/" class="fb btn">Login with Facebook</a> <a href="https://accounts.google.com/" class="google btn">Login with Google</a>
-        </div>
-        <div class="link">
-          <input type="text" name="username" placeholder="Username" required=""> <input type="password" name="password" placeholder="Password" required=""> <input type="submit" value="Login">
-        </div>
-      </div>
-    </form>
-  </div>
-  <div class="bottom-container">
-    <div class="row">
-      <div class="link">
-        <a href="#" style="color:white" class="btn">Forgot Password?</a>
-      </div>
-      <div class="link">
-        <a href="#" style="color:white" class="btn">Create an Account</a>
-      </div>
+<header>
+<nav class="navbar">
+<div class="navbar-container">
+<a href="index.html"><img class="logo" src="resources/darklogo-t.png" alt="darklogo-t"></a>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="events.html">Events</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="login.html">Login</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="content">
+  <h1>Login</h1>
+  <form name="form" action="#null" onsubmit="return checkempty()" method="get" id="form"></form>
+</div>
+<div class="container">
+<form action="/action_page.php" method="get">
+  <div class="row">
+    <div class="social">
+      <a href="https://www.facebook.com/" class="fb btn">Login with Facebook</a> <a href="https://accounts.google.com/" class="google btn">Login with Google</a>
+    </div>
+    <div class="link">
+      <input type="text" name="username" placeholder="Username" required=""> <input type="password" name="password" placeholder="Password" required=""> <input type="submit" value="Login">
     </div>
   </div>
+</form>
+</div>
+<div class="bottom-container">
+  <div class="row">
+    <div class="link">
+      <a href="#" style="color:white" class="btn">Forgot Password?</a>
+    </div>
+    <div class="link">
+      <a href="#" style="color:white" class="btn">Create an Account</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>

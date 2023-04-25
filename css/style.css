@@ -170,6 +170,9 @@ p {
     padding: 1.5em;
     background-color: #ffffff;
   }
+  input, textarea {
+    width: 90%;
+  }
 }
 
 .container {
@@ -179,13 +182,13 @@ p {
 } 
 
 input, textarea {
-  width: 100%;
+  width: 45%;
   padding: 8px;
   border: none;
   border-radius: 4px;
   margin: 5px 0;
   opacity: 1;
-  display: inline-block;
+  display: block;
   font-size: 14px;
   line-height: 18px;
 }

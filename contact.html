@@ -23,10 +23,10 @@
   </nav>
 </header>
 <div class="content">
-  <form name="contactform" action="#null" onsubmit="return checkempty()" method="get" id="contactform"></form>
 </div>
 <div class="container">
   <a><img class="world" src="resources/contact.png" alt="contact"></a>
+<form name="contactform" action="#null" onsubmit="return checkempty()" method="get" id="contactform">
   <label for="fname">First Name</label>
   <input type="text" id="fname" name="firstname" placeholder="Your name..">
   <label for="lname">Last Name</label>
@@ -38,6 +38,7 @@
   <label for="subject">Subject</label> 
   <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
   <input type="submit" value="Enter">
+</form>
   <div class="footer-container">
     <footer>
       <a><img class="facebook" src="resources/facebook.webp" alt="facebook"></a>

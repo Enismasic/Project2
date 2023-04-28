@@ -230,4 +230,58 @@ input[type=submit]:hover {
     display: block;
     text-align: center;
   }
+	
+  h1 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+
+  body {
+    margin: 2em;
+    padding: 2em;
+    background-color: #ffffff;
+  }
+  input, textarea {
+    width: 70%;
+  }
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  padding: 15px ;
+} 
+
+input, textarea {
+  width: 45%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 1;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+input[type=submit] {
+  background-color: #0A3251;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: darkblue;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #0A3251;
+  border-radius: 0px 0px 4px 4px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
 }
